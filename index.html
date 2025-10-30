@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeRush - Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TypeRush ⌨️⚡</h1>
+            <p class="subtitle">Test and improve your typing speed</p>
+        </header>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="speed">0</div>
+                <div class="stat-label">WPM</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="timer">0</div>
+                <div class="stat-label">Seconds</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="accuracy">0</div>
+                <div class="stat-label">Accuracy</div>
+            </div>
+        </div>
+        
+        <div class="quote-container">
+            <div id="quote">Click start and begin typing...</div>
+        </div>
+        
+        <div class="input-container">
+            <textarea id="input" placeholder="Click here and start typing the text above..."></textarea>
+        </div>
+        
+        <div class="controls">
+            <button id="restart">Restart Test</button>
+        </div>
+        
+        <footer>
+            <p>TypeRush &copy; 2024 | Built with JavaScript</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
