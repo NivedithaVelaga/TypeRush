@@ -9,7 +9,7 @@ A modern, responsive typing speed test application built with vanilla JavaScript
 
 ## 🚀 Live Demo
 
-[**Play TypeRush Live**](https://yourusername.github.io/TypeRush/) *← Replace with your actual GitHub Pages link*
+[**Play TypeRush Live**](https://nivedithavelaga.github.io/TypeRush/)
 
 ## 📖 About This Project
 
@@ -49,7 +49,7 @@ As one of my early projects, it represents my journey into web development and d
 To run locally:
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/TypeRush.git
+git clone https://github.com/NivedithaVelaga/TypeRush.git
 
 # Navigate to project directory
 cd TypeRush
